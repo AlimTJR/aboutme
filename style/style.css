@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "poppins-reguler";
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "poppins-light";
+  src: url(../fonts/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: "poppins-bold";
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+.tc-primer {
+  color: rgb(61, 61, 61);
+}
+.tc-sekunder {
+  color: rgb(61, 61, 61);
+}
+.tc-aksen {
+  color: rgb(230, 146, 58);
+}
+.tc-danger {
+  color: rgb(230, 84, 58);
+}
+.reguler {
+  font-family: "poppins-reguler";
+}
+.light {
+  font-family: "poppins-light";
+}
+.bold {
+  font-family: "poppins-bold";
+}
+p {
+  font-family: "poppins-light";
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+}
+.tombol-biasa {
+  background-color: rgb(230, 146, 58);
+  padding: 5px 15px 5px 15px;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+.tombol-biasa:hover {
+  transition: 0.5s;
+  background-color: rgb(230, 84, 58);
+  padding: 5px 15px 5px 15px;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+.container {
+  border-radius: 1em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+  }
+}
